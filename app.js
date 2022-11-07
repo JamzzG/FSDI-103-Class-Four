@@ -28,7 +28,7 @@ function register(){
     console.table (items);
     document.getElementById("txtTask").value="";
     }else{console.log("my apologies, but tis empty m'lord");
-    alert("You sure are quick on the trigger buddy.\n\nBut first I'm going to need you to enter a task first!");
+    alert("You sure are quick on the trigger buddy.\n\nBut I'm going to need you to enter a task first!");
     }
 
 function remove(){
