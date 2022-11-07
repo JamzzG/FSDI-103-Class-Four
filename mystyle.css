@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body{
+    background-color: black;
+    justify-content: center;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+flex{
+    display: flex;
+    width: 400px;
+    background-color: blanchedalmond;
+    font-family: arial;
+}
+
+header{
+    padding-top: 10px;
+    font-size: 14px;
+    height: 42px;
+    background-color: blueviolet;
+    padding-bottom: 12px ;
+}
+
+h1, h2{
+    color:blanchedalmond;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.throwaway{
+    font-size: 0px;
+}
+
+button{
+    font-size: 20px;
+    font-weight: 600;
+    padding:3px;
+    background-color: blanchedalmond;
+    box-shadow: 2px 2px 2px rgb(72, 11, 171) ;
+    color:rgb(72, 11, 171) ;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 2px;
+}
+
+.b2{
+    text-decoration: line-through;
+    text-decoration-color: rgb(72, 11, 171);
+    color: blanchedalmond;
+    box-shadow: -2px 2px 5px rgb(72, 11, 171) ;
+}
+
+main {
+        display: block;
+        align-items: left;
+        padding-top: 40px;
+        text-indent: 15px;
+        background-color: rgb(188, 130, 242);
+        padding-bottom: 50px;
+}
+
+input {
+    background-color: blanchedalmond;
+    width: 44px;
+    height: 15px;
+    padding: 10px;
+    vertical-align: bottom;
+    border-radius: 25%;
+    border-color: rgb(72, 11, 171);
+    }
+
+header input{
+    margin-top: 2px;
+    width: 200px;
+    box-shadow: 0px 2px 5px;
+}
+
+    ul{
+        cursor: pointer;
+        box-shadow: 0px;
+        margin-top: 20px;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 20px ;
+        font-weight: 900;
+    }
+
